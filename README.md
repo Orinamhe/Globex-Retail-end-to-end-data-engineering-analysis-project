@@ -5,7 +5,7 @@ Globex Retail wants to: retain customers, optimize inventory to match demand, gr
 
 ETL PROCESS (Extract → Transform → Load)
 
-To ensure reliable insights, we designed a structured ETL workflow:
+To ensure reliable insights,  a structured ETL workflow was designed:
 
 Extract
 
