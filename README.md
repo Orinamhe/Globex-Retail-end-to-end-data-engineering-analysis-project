@@ -1,7 +1,10 @@
 
 BUSINESS PROBLEM
+
 Globex Retail, a company specializing in e-commerce and brick-and-mortar sales, employed services of a Data Engineer / Data Analyst to analyze a dataset to understand customer purchase behavior. 
 Globex Retail wants to: retain customers, optimize inventory to match demand, grow revenue with targeted marketing, and make faster, data-driven decisions.
+
+
 
 ETL PROCESS (Extract → Transform → Load)
 
@@ -30,6 +33,8 @@ Using SQLAlchemy/psycopg2, all tables were loaded into a PostgreSQL database:
 Tables were written via .to_sql() with if_exists="replace" to ensure idempotent loading during testing.
 This ETL not only standardized data but also prepared a foundation for analytics and dashboarding in BI tools.
 
+
+
 KEY INSIGHTS (Pandas EDA)
 
 Revenue leaders: Electronics dominates overall revenue; top subcategories include Smart Watches, Smartphones, Tablets, Gaming Consoles, Headphones, and Laptops.
@@ -39,6 +44,8 @@ Discount dynamics: ~75% of total revenue occurs at low discounts (<5%); the top-
 High-value customers: They show the highest AOV and receive slightly lower average discounts than the overall base. The highest concentration of high-value customers clusters in states such as CO, AL, and IL when measured by share.
 
 Time trends: Revenue peaks mid-year (e.g., July 2023) with strong months in early 2024 (Jan–Feb). AOV fluctuates by month, suggesting timing matters for promotions and replenishment.
+
+
 
 
 RECOMMENDATIONS
